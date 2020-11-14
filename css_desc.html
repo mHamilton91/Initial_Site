@@ -1,1 +1,34 @@
 <h2>Cascading Style Sheet</h2>
+
+<p>CSS is used to modify how the HTML is displayed without changing the HTML</p>
+<p>Css can be added to HTML in 3 ways</p>
+<ul>
+    <li>Added to an elements "style" attribute</li>
+    <li>Adding the CSS into a style tag in the HTML</li>
+    <li>Creating a .css file referencing it in the HTML page. Perferred Method.</li>
+</ul>
+
+<p>The Preferred Method</p>
+<code>&#60;link href="../styles/stylesheet.css" rel="stylesheet"&#62;</code>
+
+<p>CSS Syntax</p>
+<code>p {<br>
+        &emsp; color: #333; <br>
+        &emsp; font-size: 30px; <br>
+        &emsp; margin: 20px <br>
+      }</code>
+
+<p>There are 3 ways to target HTML elements to apply CSS styles</p>
+<ul>
+    <li>HTML Tags (e.g. p, h1, div, code)</li>
+    <li>A class name. Set in the element with the class attribute and referenced using .'class'</li>
+    <li>An ID name. Set in the element with the id attribute and referenced using #'id'</li>
+</ul>
+
+<p>CSS Selector Hierarchy</p>
+<ol>
+    <li>Tag - Overwrites the default browser styles</li>
+    <li>Class - Targets more specific elements than the tag selector</li>
+    <li>ID - The most specific selector. Targets a single element and overwrites everything</li>
+    <li>Important - Rules marked with !important overwrites everything</li>
+</ol>
